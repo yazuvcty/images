@@ -25,7 +25,7 @@ nav {
 
 .social:hover{
 position: relative;
-top: 10px;
+bottom: 10px;
 }
 
 .link-header{
@@ -47,10 +47,10 @@ color: rgb(255, 130, 136);
 }
 
 body{
-color:rgb(255, 221, 234);
+color:rgb(247, 159, 193);
 }
 
-p{
+.text{
     font-size: 20px;
 color:rgb(245, 149, 165)
 }
@@ -74,9 +74,27 @@ bottom: 0px;
 display:flex;
 flex-wrap:wrap;
 width: 60%;
-justify-content: space-around;
+justify-content: space-between;
 }
 .image img{
 width: 45%;;
 height:auto;
+}
+
+.image img:hover{
+position:relative;
+bottom: 10px;
+}
+
+h2{
+color:rgb(254, 40, 151);
+font-size: 35px;
+}
+
+main{
+margin-bottom:150px;
+}
+
+iframe:hover{
+box-shadow: 6px 10px 25px 0 black;
 }
